@@ -1,0 +1,13 @@
+
+legs=int(input())
+heads=int(input())
+flag=False
+for cows in range(0,heads+1):
+    hens=heads-cows
+    flag=True
+    break
+if(flag==True):
+    print("cows:",cows)
+    print("hens:",hens)
+else:
+    print("no cows or hens")
