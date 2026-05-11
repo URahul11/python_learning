@@ -1,0 +1,9 @@
+def rahul(a):
+    if a==1:
+        return 1
+    else:
+        return a*rahul(a-1)
+
+a=6
+x=rahul(a)
+print(x)
